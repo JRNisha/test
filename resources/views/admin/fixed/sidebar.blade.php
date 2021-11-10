@@ -55,7 +55,7 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                     Charts
                 </a>
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{ url('/tables') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                     Tables
                 </a>
@@ -63,7 +63,7 @@
         </div>
         <div class="sb-sidenav-footer">
             <div class="small">Logged in as:</div>
-            Start Bootstrap
+            Admin
         </div>
     </nav>
 </div>

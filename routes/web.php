@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SigninformController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,6 @@ Route::get('/', function () {
 
 Route::get('/test', [TestController::class,'test']);
 Route::get('/testtwo',[TestController::class,'test2']);
+Route::get('/tables',[TestController::class,'tables']);
+Route::get('/form',[TestController::class,'form']);
+Route::get('/signinform',[SigninformController::class,'signform'])->name('admin.signin');

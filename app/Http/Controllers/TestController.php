@@ -12,4 +12,12 @@ class TestController extends Controller
     public function test2(){
         return view('admin.pages.testtool');
     }
+
+    public function tables(){
+        return view('admin.pages.tables');
+    }
+    public function form()
+    {
+        return view('admin.pages.forms');
+    }
 }
